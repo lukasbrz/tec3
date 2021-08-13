@@ -1,0 +1,159 @@
+# fcf-form { 
+    display : block ; }
+
+
+. fcf - cuerpo { 
+    margen : 0 ; 
+    fuente - familia : - apple - system , Arial , sans - serif ; 
+    fuente - tamaño : 1rem ; 
+    fuente - peso : 400 ; 
+    línea - altura : 1,5 ; 
+    color : # 212529; 
+    texto - alinear : izquierda ;       
+    fondo - color : #fff; 
+    relleno : 30px ; 
+    relleno - parte inferior : 10px ; 
+    borde : 1px sólido # ced4da; 
+    borde - radio : 0.25rem ; 
+    max - ancho : 100 %; }      
+
+
+. fcf - formulario - grupo { 
+    margen - inferior : 1rem ; }  
+
+
+. fcf - entrada - grupo { 
+    posición : relativa ; 
+    pantalla : - ms - flexbox ; 
+    pantalla : flex ; - ms - flex - envolver : envolver ; 
+    flex - envolver : envolver ; - ms - flex - alinear : estirar ; 
+    alinear - elementos : estirar ;  
+    
+    
+    ancho : 100 %; } 
+
+
+. fcf - formulario - control { 
+    pantalla : bloque ; 
+    ancho : 100 %; 
+    altura : calc ( 1.5em + 0.75rem + 2px ); 
+    acolchado : 0.375rem 0.75rem ; 
+    fuente - tamaño : 1rem ; 
+    fuente - peso : 400 ; 
+    línea - altura : 1,5 ; 
+    color :           # 495057; 
+    fondo - color : #fff; 
+    fondo - clip : relleno - caja ; 
+    borde : 1px sólido # ced4da; 
+    esquema : ninguno ; 
+    borde - radio : 0.25rem ; 
+    transición : la frontera - de color 0.15s facilidad - en - hacia fuera , caja - sombra 0.15s facilidad - en -   a cabo ; }
+
+
+. fcf - formulario - control : foco { 
+    borde : 1px sólido # 313131; } 
+
+
+seleccionar . fcf - formulario - control [ tamaño ], seleccionar . fcf - formulario - control [ múltiple ] { 
+    altura : automático ; }   
+
+
+textarea . fcf - formulario - control { 
+    fuente - familia : - apple - sistema , Arial , sans - serif ; 
+    altura : auto ; }   
+
+
+etiqueta . fcf - label { 
+    display : inline - block ; 
+    margen - inferior : 0.5rem ; }  
+
+
+. fcf - credit { 
+    padding - top : 10px ; 
+    fuente - tamaño : 0.9rem ; 
+    color : # 545b62; }   
+
+
+. fcf - acredita un { 
+    color : # 545b62; 
+    texto - decoración : subrayado ; } 
+
+
+. fcf - crédito a : hover { 
+    color : # 0056b3; 
+    texto - decoración : subrayado ; } 
+
+
+. fcf - btn { 
+    display : inline - block ; 
+    fuente - peso : 400 ; 
+    color : # 212529; 
+    texto - alinear : centro ; 
+    vertical - alinear : medio ; 
+    cursor : puntero ; - webkit - usuario - seleccionar : ninguno ; - moz - usuario - seleccionar   
+    
+    : ninguno ; - ms - usuario - seleccionar : ninguno ; 
+    usuario - seleccionar : ninguno ; 
+    fondo - color : transparente ; 
+    borde : 1px transparente sólido ; 
+    acolchado : 0.375rem 0.75rem ; 
+    fuente - tamaño : 1rem ; 
+    línea - altura : 1,5 ; 
+    borde - radio :
+          0,25rem ; 
+    transición : el color 0.15s facilidad - en - salir , fondo - de color 0.15s facilidad - en - salir , frontera - de color 0.15s facilidad - en - hacia fuera , caja - sombra 0.15s facilidad - en - salir ; }
+
+
+@media ( prefiere - reducido - movimiento : reducir ) { . fcf - btn { 
+        transición : ninguna ; } }  
+    
+    
+
+
+. fcf - btn : hover { 
+    color : # 212529; 
+    texto - decoración : ninguna ; } 
+
+
+. FCF - BTN : enfoque , . fcf - btn . enfoque { 
+    esquema : 0 ; 
+    cuadro - sombra : 0 0 0 0.2rem rgba ( 0 , 123 , 255 , 0.25 ); }         
+
+
+. fcf - btn - primario { 
+    color : #fff; 
+    fondo - color : # 007bff; 
+    borde - color : # 007bff; }   
+
+
+. fcf - btn - primario : hover { 
+    color : #fff; 
+    fondo - color : # 0069d9; 
+    borde - color : # 0062cc; }   
+
+
+. FCF - BTN - primaria : enfoque , . fcf - btn - primario . foco { 
+    color : #fff; 
+    fondo - color : # 0069d9; 
+    borde - color : # 0062cc; 
+    cuadro - sombra : 0 0 0 0.2rem rgba ( 38 , 143 , 255 , 0.5 ); }           
+
+
+. FCF - BTN - LG , . fcf - btn - grupo - lg >. fcf - btn { 
+    relleno : 0.5rem 1rem ; 
+    fuente - tamaño : 1.25rem ; 
+    línea - altura : 1,5 ; 
+    borde - radio : 0.3rem ; }      
+
+
+. fcf - btn - block { 
+    display : block ; 
+    ancho : 100 %; } 
+
+
+. fcf - btn - bloque +. fcf - btn - bloque { 
+    margen - superior : 0.5rem ; } 
+
+
+entrada [ tipo = "enviar" ]. fcf - btn - bloque , entrada [ tipo = "restablecer" ]. fcf - btn - bloque , entrada [ tipo = "botón" ]. fcf - btn - block { 
+    ancho : 100 %; } 
